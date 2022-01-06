@@ -1,11 +1,9 @@
-from math import trunc
-from re import T
 import tkinter
 from tkinter import Frame, filedialog
 from tkinter import messagebox
 from tkinter import RIGHT, LEFT, TOP, BOTTOM
-import os
 from tkinter.constants import E, NE, NW, W
+import os
 from src.message_factroy import MessageFactory as MF
 import youtube_dl
 
