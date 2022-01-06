@@ -12,8 +12,21 @@ ffmpegをインストールするには、
 + pyinstaller: 4.7
 + tkinter
 
-## Infomation
+## How to use
+いつか書く　　
+![MainScreen.jpg](img/MainScreen.jpg)
 
-### verion: 1.0.0
+## make exe
+```
+pyinstaller main.py --onefile <--icon=**> <--noconsole>
+```
+## Infomation
+### version: 1.0.0
 + 現状：とりあえず使えるから公開
 + レイアウト放置
+### version: 2.0.0
++ レイアウトざっくりできた
+  + ひたすらFrameをネストして無理してると思う
++ URLのリストを表示する場所について
+  + message -> listboxに変更
++ help情報をどこにするか考え中
